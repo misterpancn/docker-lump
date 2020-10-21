@@ -10,7 +10,7 @@ sql_mode                = ""
 
 default-storage-engine  = InnoDB
 default-authentication-plugin   = mysql_native_password
-character-set-server    = utf8mb4
+character-set-server    = utf8
 collation-server        = utf8mb4_unicode_ci
 init_connect            = 'SET NAMES utf8mb4'
 
@@ -19,7 +19,7 @@ skip-character-set-client-handshake
 explicit_defaults_for_timestamp
 
 slow_query_log
-long_query_time         = 3
+long_query_time         = 10
 slow-query-log-file     = /var/lib/mysql/mysql.slow.log
 log-error               = /var/lib/mysql/mysql.error.log
 
